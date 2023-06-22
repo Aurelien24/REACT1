@@ -1,0 +1,110 @@
+/* Mes classe personnalisé */
+.flex{
+  display: flex;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+.column{
+  flex-direction: column;
+}
+
+.column-mobile{
+  flex-direction: column;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.bg-principal{
+  background-color: black;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.margin-top-bottom-0{
+  margin: -20px 0px -16px 0px;
+}
+
+/* Général */
+.App{
+  text-align: center;
+}
+
+a, p, h1, h2, h3{
+  color: white;
+  text-align: center;
+}
+
+/* ellement */
+
+#top-home{
+  background-image: url("../../public/Top-Home-Baniere.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+}
+
+#presentation{
+  min-height: 200px;
+  width: 100%;
+}
+
+#presentation > img {
+  min-height: 200px;
+  max-height: 40vh;
+  object-fit: scale-down;
+  
+}
+
+#presentation > div {
+  width: 100%;
+}
+
+#map-div{
+  width: 100%;
+  height: min-content;
+}
+
+#map{
+  height: 20vh;
+  min-height: 400px;
+  width: 80%;
+}
+
+#message{
+  height: 300px;
+}
+
+header {
+  width: 100%;
+}
+
+strong{
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .column-mobile{
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 600px){
+
+  .flex-600px {
+
+      display: flex;
+  }
+}
